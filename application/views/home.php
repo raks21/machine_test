@@ -28,7 +28,7 @@
 			<?php
 				$user = $this->session->userdata('user');
 				extract($user);
-				var_dump($user);
+				// var_dump($user);
 			?>
 			<h2>Welcome to Homepage </h2>
 			<h4>User Info:</h4>
